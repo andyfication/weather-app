@@ -1,0 +1,63 @@
+:root {
+  --title-color: #333333;
+  --body-color: #333333;
+  --link-color: #888888;
+  --foot-color: #888888;
+  --border-color: #cccccc;
+}
+
+body {
+  color: var(--body-color);
+  font-family: arial;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+}
+
+footer {
+  color: var(--foot-color);
+  border-top: 1px solid var(--foot-color);
+  margin-top: 16px;
+  padding: 16px 0;
+}
+
+header {
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
+h1 {
+  font-size: 64px;
+  margin-bottom: 16px;
+  color: var(--title-color);
+}
+
+header a {
+  color: var(--link-color);
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+.portrait {
+  width: 250px;
+}
+
+input {
+  border: 1px solid var(--body-color);
+  padding: 8px;
+}
+
+button {
+  cursor: pointer;
+  border: 1px solid var(--link-color);
+  background: var(--link-color);
+  color: white;
+  padding: 8px;
+}
